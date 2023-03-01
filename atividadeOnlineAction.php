@@ -30,7 +30,7 @@
   echo
 "".$_POST['txtNome']."! <br> ";
  echo "Você terá ".$porc."% de desconto, resultara no valor de R$ ".($porc
-* $valor / 100)."<br>"; echo "Seu boleto será de: R$ ".($valor -
+* $valor / 100)."<br>"; echo "Sua compra será de: R$ ".($valor -
 $porc * $valor / 100)."<br>"; 
 ?>
 
